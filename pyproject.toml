@@ -1,0 +1,10 @@
+[project]
+name = "superpower-terminal-todo"
+version = "0.1.0"
+description = "Terminal todo app with recurring tasks, journaling, and follow-up workflows."
+readme = "README.md"
+requires-python = ">=3.11"
+license = "MIT"
+
+[project.scripts]
+superpower-todo = "superpower_todo:main"
